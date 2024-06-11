@@ -1,0 +1,28 @@
+{
+  "bin": {
+    "p5t": "cli.js"
+  },
+  "name": "@ruipgsantos/p5-tools",
+  "version": "1.0.3",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ruipgsantos/p5-tools": "^1.0.1",
+    "@types/p5": "^1.4.3",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.6",
+    "p5": "^1.4.2",
+    "recursive-copy": "^2.0.14",
+    "ts-loader": "^9.4.1",
+    "webpack-cli": "^4.10.0"
+  }
+}
