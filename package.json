@@ -2,6 +2,9 @@
   "bin": {
     "p5t": "cli.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "name": "@ruipgsantos/p5-project-gen",
   "version": "1.0.0",
   "description": "",
